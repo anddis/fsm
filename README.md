@@ -1,6 +1,6 @@
 ### Karolinska Institutet || Fundamentals of Statistical Modeling
 
-<img src="https://i.ibb.co/pKMSh8g/pic.png" alt="pic" border="0">
+<img src="https://i.ibb.co/c3pf7X2/pic.png" alt="pic" border="0">
 
 #### Course Information
 
