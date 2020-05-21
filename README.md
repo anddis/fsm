@@ -1,6 +1,6 @@
 ## Fundamentals of Statistical Modeling
 
-<img src="https://i.ibb.co/crwVZJG/pic.png" alt="pic" border="0">
+<img src="https://i.ibb.co/Wf2w76H/pic.png" alt="pic" border="0">
 
 #### Course Information
 
@@ -8,11 +8,11 @@
 
 #### Lab material
 
-* Monday: [pdf](), [do]() + [pdf extra](), [do extra]()
-* Tuesday: [pdf](), [do]()
-* Wednesday: [pdf](), [do]() + [pdf extra](), [do extra]()
-* Thursday: [pdf](), [do]()
-* Friday: [pdf](), [do]()
+* Monday: [pdf](https://anddis.github.io/fsm/pdf/lab1.pdf), [do](https://anddis.github.io/fsm/do/lab1.do)
+* Tuesday: [pdf](https://anddis.github.io/fsm/pdf/lab2.pdf), [do](https://anddis.github.io/fsm/do/lab2.do)
+* Wednesday: [pdf](https://anddis.github.io/fsm/pdf/lab3.pdf), [do](https://anddis.github.io/fsm/do/lab3.do)
+* Thursday: [pdf](https://anddis.github.io/fsm/pdf/lab4.pdf), [do](https://anddis.github.io/fsm/do/lab4.do)
+* Friday: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)
 
 #### Free resources to help you learn and use Stata
 
