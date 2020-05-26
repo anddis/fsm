@@ -12,9 +12,9 @@
 * Monday: [pdf](https://anddis.github.io/fsm/pdf/lab1.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab1_q.pdf), [do](https://anddis.github.io/fsm/do/lab1.do)
 * Tuesday: [pdf](https://anddis.github.io/fsm/pdf/lab2.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_q.pdf), [do](https://anddis.github.io/fsm/do/lab2.do)
 * Tuesday (extra): [pdf](https://anddis.github.io/fsm/pdf/lab2_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab2_extra.do)
-<!--* Wednesday: [pdf](https://anddis.github.io/fsm/pdf/lab3.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_q.pdf), [do](https://anddis.github.io/fsm/do/lab3.do)
+* Wednesday: [pdf](https://anddis.github.io/fsm/pdf/lab3.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_q.pdf), [do](https://anddis.github.io/fsm/do/lab3.do)
 * Thursday: [pdf](https://anddis.github.io/fsm/pdf/lab4.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab4_q.pdf), [do](https://anddis.github.io/fsm/do/lab4.do)
-* Friday: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab5_q.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)-->
+* Friday: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab5_q.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)
 
 #### Free resources to help you learn and use Stata
 
