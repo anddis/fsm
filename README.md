@@ -1,4 +1,4 @@
-## Fundamentals of Statistical Modeling
+## Fundamentals of Statistical Modeling (VT21)
 
 <img src="https://i.ibb.co/Wf2w76H/pic.png" alt="pic" border="0">
 
