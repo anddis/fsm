@@ -2,14 +2,9 @@ capture log close
 log using "lab1", smcl replace
 //_1
 version 14
-use https://raw.githubusercontent.com/anddis/fsm/master/data/lab1.dta, clear
-run https://raw.githubusercontent.com/anddis/fsm/master/do/mlci.do
 //_2
-local f = "exp(-(y_n-{mu})^2/(2*{sigma}^2))/sqrt(2*_pi*{sigma}^2)"
-mlexp (ln(`f'))
-
-di "The MLE for mu is: "_b[/mu]
-di "The MLE for sigma is: "_b[/sigma]
+version 14
+use https://raw.githubusercontent.com/anddis/fsm/master/data/lab1.dta, clear
 //_3
 local f = "normalden(y_n, {mu}, {sigma})"
 mlexp (ln(`f'))
@@ -63,39 +58,5 @@ mlexp(ln(`f'))
 gen fhat_y_c = chi2den(_b[/k], y_c)
 tw (hist y_c) (line fhat_y_c y_c, sort), name(y_c, replace)
 graph export y_c.png, replace
-//_15
-net sj 16-3 gr42_7
-net install gr42_7
-//_16
-local f = "normalden(y_n, {mu}, exp({theta}))"
-mlexp(ln(`f'))
-mlci exp /theta
-
-gen u_normal = normal((y_n-_b[/mu])/exp(_b[/theta]))
-qplot u_normal, addplot(function y = x) name(p1, replace)
-graph export p1.png, replace
-//_17
-local f = "exp({theta})*exp(-y_n * exp({theta}))"
-mlexp(ln(`f'))
-mlci exp /theta
-
-gen u_exponential = 1-exp(-y_n * exp(_b[/theta]))
-qplot u_exponential, addplot(function y = x) name(p2, replace)
-graph export p2.png, replace
-//_18
-local eta = "invlogit({theta})"
-local f = "`eta'^y_ber * (1-`eta')^(1-y_ber)"
-mlexp (ln(`f'))
-mlci invlogit /theta
-
-local eta = "invlogit({theta})"
-local f = "binomialp(1, y_ber, `eta')"
-mlexp (ln(`f')) 
-mlci invlogit /theta
-
-logit y_ber
-//_19
-local eta = "invlogit({theta})"
-mlexp (y_ber*ln(`eta')+(1-y_ber)*log(1-`eta'))
 //_^
 log close
