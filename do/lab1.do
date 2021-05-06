@@ -1,46 +1,37 @@
 capture log close
 log using "lab1", smcl replace
 //_1
-version 14
-* Chunk 1 
+* Chunk 1
 local a = "Fundamentals of statistical modeling."
 di "`a'"
-
 * Chunk 2
 local a = "statistical modeling"
 di "Fundamentals of `a'."
-
 * Chunk 3
 local a = "Fundamentals of"
 local b = "statistical"
 local c = "modeling."
 di "`a' `b' `c'"
-
 * Chunk 4
 local a = "Fundamentals"
 local b = "`a' of"
 local c = "`b' statistical"
 local d = "`c' modeling."
 di "`d'"
-
 * Chunk 5
 di exp(2) * exp(-2)
-
 * Chunk 6
 local a = "exp(2)"
 local b = "exp(-2)"
 di `a' * `b'
-
 * Chunk 7
 local a = "2"
 local b = "exp(`a')"
 local c = "exp(-`a')"
 di `b' * `c'
-
 * Chunk 8
 sysuse auto, clear
 describe
-
 local yvar = "weight"
 local xvars = "length mpg"
 local xvars2 = "price"

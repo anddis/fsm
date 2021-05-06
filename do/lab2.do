@@ -6,7 +6,7 @@ use https://raw.githubusercontent.com/anddis/fsm/master/data/lab2.dta, clear
 run https://raw.githubusercontent.com/anddis/fsm/master/do/mlci.do
 //_2
 net sj 16-3 gr42_7
-net install gr42_7
+cap net install gr42_7
 //_3
 cap net install http://fmwww.bc.edu/RePEc/bocode/r/rcsgen.pkg
 //_4
