@@ -90,7 +90,7 @@ di e(ln_bhknots)
 gen double z = log(y)
 rcsgen z, gen(z_rcs) dgen(z_d_rcs) knots(-2.465104022491821 .223943231484774 1.641711472984396 3.091360584567398)
 local G = "{eta0}*z+{eta1}*z_rcs2+{eta2}*z_rcs3+{beta0}+{beta1}*x"
-local g = "({eta0}+{eta1}*z_d_rcs2+{eta2}*z_d_rcs3)"
+local g = "({eta0}+{eta1}*z_d_rcs2+{eta2}*z_d_rcs3)*1/y"
 local H = "exp(`G')"
 local h = "`H'*`g'"
 mlexp ((d==1)*ln(`h')-`H'), from(eta0=1 eta1=0 eta2=0 beta0=0 beta1=0)
