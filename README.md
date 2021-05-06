@@ -10,13 +10,13 @@
 
 #### Lab material
 
-* Monday: [pdf](https://anddis.github.io/fsm/pdf/lab1.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab1_q.pdf), [do](https://anddis.github.io/fsm/do/lab1.do)
-* Tuesday: [pdf](https://anddis.github.io/fsm/pdf/lab2.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_q.pdf), [do](https://anddis.github.io/fsm/do/lab2.do)
-* Tuesday (extra): [pdf](https://anddis.github.io/fsm/pdf/lab2_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab2_extra.do)
-* Wednesday: [pdf](https://anddis.github.io/fsm/pdf/lab3.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_q.pdf), [do](https://anddis.github.io/fsm/do/lab3.do)
-* Wednesday (extra): [pdf](https://anddis.github.io/fsm/pdf/lab3_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab3_extra.do)
-* Thursday: [pdf](https://anddis.github.io/fsm/pdf/lab4.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab4_q.pdf), [do](https://anddis.github.io/fsm/do/lab4.do)
-* Friday: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab5_q.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)
+* Lab 1: [pdf](https://anddis.github.io/fsm/pdf/lab1.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab1_q.pdf), [do](https://anddis.github.io/fsm/do/lab1.do)
+* Lab 2: [pdf](https://anddis.github.io/fsm/pdf/lab2.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_q.pdf), [do](https://anddis.github.io/fsm/do/lab2.do)
+* Lab 2 (extra): [pdf](https://anddis.github.io/fsm/pdf/lab2_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab2_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab2_extra.do)
+* Lab 3: [pdf](https://anddis.github.io/fsm/pdf/lab3.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_q.pdf), [do](https://anddis.github.io/fsm/do/lab3.do)
+* Lab 3 (extra): [pdf](https://anddis.github.io/fsm/pdf/lab3_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab3_extra.do)
+* Lab 4: [pdf](https://anddis.github.io/fsm/pdf/lab4.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab4_q.pdf), [do](https://anddis.github.io/fsm/do/lab4.do)
+* Lab 5: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab5_q.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)
 
 #### Free resources to help you learn and use Stata
 
