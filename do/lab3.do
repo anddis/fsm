@@ -74,11 +74,14 @@ mlexp (`f')
 mlci invlogit /theta1
 mlci exp /theta2
 //_13
+di invlogit(_b[/theta1])+(1-invlogit(_b[/theta1]))*poissonp(exp(_b[/theta2]),0)
+di (1-invlogit(_b[/theta1]))*poissonp(exp(_b[/theta2]),4)
+//_14
 gen fhat_y = exp((y==0)*ln(invlogit(_b[/theta1])+(1-invlogit(_b[/theta1]))*poissonp(exp(_b[/theta2]),0))+ ///
 (y>0)*ln((1-invlogit(_b[/theta1]))*poissonp(exp(_b[/theta2]),y)))
 tw (hist y, width(1)) (line fhat_y y, sort connect(J)), name(p3, replace)
 graph export p3.png, replace
-//_14
+//_15
 local beta = "invlogit({theta1})"
 local a = "exp({theta2})"
 local b = "exp({theta3})"
@@ -87,17 +90,20 @@ mlexp (`f')
 mlci invlogit /theta1
 mlci exp /theta2
 mlci exp /theta3
-//_15
+//_16
+di invlogit(_b[/theta1])+(1-invlogit(_b[/theta1]))*gammap(exp(_b[/theta2]),1/exp(_b[/theta3]))
+di (1-invlogit(_b[/theta1]))*(gammap(exp(_b[/theta2]),5/exp(_b[/theta3]))-gammap(exp(_b[/theta2]),4/exp(_b[/theta3])))
+//_17
 gen fhat_y2 = exp((y==0)*ln(invlogit(_b[/theta1])+(1-invlogit(_b[/theta1]))*gammap(exp(_b[/theta2]),1/exp(_b[/theta3])))+ ///
 (y>0)*ln((1-invlogit(_b[/theta1]))*(gammap(exp(_b[/theta2]),(y+1)/exp(_b[/theta3]))-gammap(exp(_b[/theta2]),y/exp(_b[/theta3])))))
 tw (hist y, width(1)) (line fhat_y fhat_y2 y, sort connect(J J)), name(p4, replace) legend(off)
 graph export p4.png, replace
-//_16
-gen N = _N
+//_18
+gen N = _N // This line and the following 2 are used to compute the observed (empirical) proportions
 bysort y: gen n = _N
-gen obs_p = n / N
+gen obs_p = n / N 
 tabstat obs_p fhat_y fhat_y2, by(y) nototal format(%4.3f)
-//_17
+//_19
 use https://raw.githubusercontent.com/anddis/fsm/master/data/lab3_1.dta, clear
 gen d = (age < 100)
 
