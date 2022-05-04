@@ -6,7 +6,6 @@
 
 * [Syllabus](http://www.imm.ki.se/biostatistics/courses/fsm/Syllabus.pdf)
 * Computer labs: 13:00–16:00 (lab review 15:20–16:00)
-* Zoom links: check [KI Canvas](https://canvas.ki.se/)
 
 #### Lab material
 
@@ -17,12 +16,6 @@
 * Lab 3 (extra): [pdf](https://anddis.github.io/fsm/pdf/lab3_extra.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab3_extra_q.pdf), [do](https://anddis.github.io/fsm/do/lab3_extra.do)
 * Lab 4: [pdf](https://anddis.github.io/fsm/pdf/lab4.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab4_q.pdf), [do](https://anddis.github.io/fsm/do/lab4.do)
 * Lab 5: [pdf](https://anddis.github.io/fsm/pdf/lab5.pdf), [pdf_q](https://anddis.github.io/fsm/pdf/lab5_q.pdf), [do](https://anddis.github.io/fsm/do/lab5.do)
-
-#### Free resources to help you learn and use Stata
-
-* [Stata Tutorial](http://data.princeton.edu/stata/) (introduction to Stata by G.Rodriguez, Princeton University)
-* [local macros](http://www.stata.com/manuals13/pmacro.pdf) (from the Stata Programming Reference Manual)
-* [mlexp command](http://www.stata.com/manuals14/rmlexp.pdf) (from the Stata Base Reference Manual)
 
 - - -
 
