@@ -4,10 +4,11 @@
 
 #### Course Information
 
-* [Syllabus](http://www.imm.ki.se/biostatistics/courses/fsm/Syllabus.pdf)
-* Computer labs: 13:00–16:00 (lab review 15:20–16:00)
+* Computer labs: 13:00–16:00; lab review 15:20–16:00 (Day 2–5)
 
 #### Lab material
+
+* [KI Canvas](https://utbildning.ki.se/logga-in-i-canvaslog-in-to-canvas)
 
 - - -
 
