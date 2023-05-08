@@ -1,10 +1,10 @@
-## Fundamentals of Statistical Modeling (VT22)
+## Fundamentals of Statistical Modeling (VT23)
 
 <img src="https://i.ibb.co/Wf2w76H/pic.png" alt="pic" border="0">
 
 #### Course Information
 
-* Computer labs: 13:00–16:00; lab review 15:20–16:00 (Day 2–5)
+* Computer labs: 13:00–16:00 (Mon–Fri).
 
 #### Lab material
 
