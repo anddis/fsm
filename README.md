@@ -1,4 +1,4 @@
-## Fundamentals of Statistical Modeling (VT23)
+## Fundamentals of Statistical Modeling (VT--)
 
 <img src="https://i.ibb.co/Wf2w76H/pic.png" alt="pic" border="0">
 
@@ -8,7 +8,9 @@
 
 #### Lab material
 
-* [KI Canvas](https://utbildning.ki.se/logga-in-i-canvaslog-in-to-canvas)
+* Assignments, Stata/R code: [KI Canvas](https://utbildning.ki.se/logga-in-i-canvaslog-in-to-canvas)
+
+* Datasets: this GitHub repo
 
 - - -
 
